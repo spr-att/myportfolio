@@ -1,0 +1,232 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style2">
+						<a href="index.html" class="logo"></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="home.html">Home</a></li>
+							<li><a href="aboutme.html">About Me</a></li>
+							<li><a href="resume.html">Resume</a></li>
+							<li><a href="projects.html">Projects</a></li>
+					</nav>
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/IMG-7854.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>Projects</h1>
+							</header>
+							<div class="content">
+								<p></p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Two -->
+							<section id="two" class="spotlights">
+								<section id="frog">
+									<a class="image">
+										<img src="images/peeper.png" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Frog Research</h3>
+											</header>
+											<p>In this research I have applied multi-scale models to evaluate the importance of different environmental factors for various frog species. To gather data in the field my peer and I would use GPS units to locate our research sites, hike to these areas, and then collect environmental data. At each site we also recorded which frog species were present based on mating call, and a “calling index” was taken, which acts as an estimate of a species’ abundance. After collecting the data, I used Microsoft Excel to clean it up before fitting occupancy models in R to find the importance of different environmental conditions for the frogs. One major finding of this research is the significance of forest surrounding pond sites. It directly influences both the amount of species and individuals present at a site.</p>
+											<ul class="actions">
+												<li><a onclick="window.open('https://github.com/spr-att/spr-att.github.io/blob/main/Frog_model.R')" class="button">Look at the Code</a></li>
+												<li><a onclick="window.open('https://github.com/spr-att/spr-att.github.io/blob/main/Frog_results.pdf')" class="button">See the Results</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section id="movie">
+									<a class="image">
+										<img src="images/mov.jpg" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Movies Project</h3>
+											</header>
+											<p>In this project I worked with the Kaggle movies dataset to compare movies with a female protagonist vs. a male protagonist. To process the plot summaries I would use keywords such as he/she/her/himself etc. and after dividing the dataset into two sub-groups based on protagonist gender, I was looking for systemic differences in budget, revenue, and popularity. Based on my budget figure I found that there was a disparity in how the industry treats female vs. male protagonists, however both popularity and revenue show that audiences do not treat movies differently based on protagonist gender.</p>
+											<ul class="actions">
+												<li><a onclick="window.open('https://github.com/spr-att/spr-att.github.io/blob/main/Kagglemovies_workflow.ipynb')" class="button">Look at the Code</a></li>
+												<li><a onclick="window.open('https://github.com/spr-att/spr-att.github.io/blob/main/Kagglemovies_paper.pdf')" class="button">Read more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section id="aml">
+									<a class="image">
+										<img src="images/regressionn.jpg" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Regression Activity</h3>
+											</header>
+											<p>For this project I preprocessed the Safe Driver Prediction data from Kaggle and then tested different types of regression (Random Forest, Logisitic Regression, K Nearest Neighbors, and SVM) to find the one that performed the best. To test the performance of these regression methods I checked the average recall and precision values, as well as the ROC curves.</p>
+											<ul class="actions">
+												<li><a onclick="window.open('https://github.com/spr-att/spr-att.github.io/blob/main/AMLProject3.ipynb')" class="button">Look at the Code</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section id="grassland">
+									<a class="image">
+										<img src="images/Undisturbed Grasslands Results.jpg" alt="" data-position="25% 25%" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Grassland Analysis</h3>
+											</header>
+											<p>In an effort to better understand its carrying capacity, this project analyzed the extent of undisturbed grasslands in Central Montana. My partner and I studied a 2021 CropScape layer to find any active cropland, as well as earlier years to catch “idle cropland” that may have been disturbed in the past. We also used NLCD data to look at trends in land-use over the time period 2001-2019. In the end we compared this time-series analysis to an imagery base layer in ArcGIS Pro to find common signs of disturbance.</p>
+											<ul class="actions">
+												<li><a onclick="window.open('https://github.com/spr-att/spr-att.github.io/blob/main/GISgrasslands_results.pdf')" class="button">See the Results</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section id="sleep">
+									<a class="image">
+										<img src="images/sleepborderr.jpg" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Sleep Project</h3>
+											</header>
+											<p>This project allowed me to track my sleep patterns for a month using the Sleep Cycle app, and make visualizations out of the data using R. In addition to collecting data from the app, I also made note of how stressed I was each day, if I had an upcoming exam, if I exercised that day, and more. Ultimately I found that my sleep was much improved over the weekend in comparison to the week. But also, my sleep quality and duration varied depending on whether I exercised or not, had an upcoming exam, or felt stressed throughout the day.</p>
+											<ul class="actions">
+												<li><a onclick="window.open('https://github.com/spr-att/spr-att.github.io/blob/main/Sleepproject_paper.pdf')" class="button">Read more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section id="atlas">
+									<a class="image">
+										<img src="images/IMG-51522.jpg" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Atlas Consultancy</h3>
+											</header>
+											<p>For my Advanced GIS course I created a “consultancy” to reproduce a piece of scientific literature. The paper my consultancy chose to reproduce used open-source data, QGIS, machine learning, and LiDAR to predict the occurrence of the American red squirrel in Alaska. We made video presentations outlining our paper, reproducing its methods, and added our work to a website that served as a portfolio for the class. In addition to reproducing the paper my consultancy also used Python Scripting to complete a Special Works Project, created posts devoted to Geoethics, and designed a Novel Dataset, all of which can be found on our website.</p>
+											<ul class="actions">
+												<li><a onclick="window.open('https://sites.google.com/email.wm.edu/atlas-consultancy/home')" class="button">Check out our website</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section id="binary">
+									<a class="image">
+										<img src="images/tree.jpg" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Balanced Binary Tree</h3>
+											</header>
+											<p>In this project I created a self-balancing binary tree structure using Python. The project required us to implement the binary search tree in an exercise, as well as heavily test the structure using unit tests to ensure that it would work in all scenarios.</p>
+											<ul class="actions">
+												<li><a onclick="window.open('https://github.com/spr-att/spr-att.github.io/blob/main/CSCI_binarysearchtree.py')" class="button">Look at the Code</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section id="princess">
+									<a class="image">
+										<img src="images/KDE.jpg" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Princess Tree Survey</h3>
+											</header>
+											<p>For this project I chose to research Princess tree, a non-native tree species in North America that has been shown to propagate quickly after fires. However it is supposed to be very sensitive to shade, which is what my study was analyzing using GIS. I found two different datasets, a raster layer of Tree Canopy Cover in the United States and citizen science points of Princess tree prevalence and by overlaying the two I was able to look at spatial patterns as well as perform statistical analysis. After evaluating the two layers the pattern was very clear, the areas with sparse tree canopy cover had a much higher prevalence of Princess tree.</p>
+											<ul class="actions">
+												<li><a onclick="window.open('https://github.com/spr-att/spr-att.github.io/blob/main/GIStreeanalysis_paper.pdf')" class="button">Read More</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+							</section>
+
+						<!-- Three -->
+							<section id="three">
+								<div class="inner">
+									<header class="major">
+									</header>
+									<p>If you want to see even more work samples follow the link below to my Github repository!</p>
+									<ul class="actions">
+										<li><a onclick="window.open('https://github.com/spr-att/spr-att.github.io')" class="button next">My Github</a></li>
+									</ul>
+								</div>
+							</section>
+					</div>
+
+
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<ul class="icons">
+							<li><a onclick="window.open('https://github.com/spr-att')" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							<li><a onclick="window.open('www.linkedin.com/in/sprattt')" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							<li><a onclick="window.open('mailto:smprattjb@gmail.com')" class="icon solid alt fa-envelope"></a></li>
+							<span>smprattjb@gmail.com</span>
+						</ul>
+						<ul class="copyright">
+							<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
